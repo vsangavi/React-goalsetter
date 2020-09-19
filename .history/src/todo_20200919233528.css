@@ -1,0 +1,76 @@
+h4 {
+  text-align: center;
+  font-weight: bolder;
+}
+ul {
+  list-style-type: none;
+}
+.result {
+  text-align: center;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.outer {
+  border: 1px;
+  box-sizing: border-box;
+  height: auto;
+  width: 40vw;
+  margin: 2rem auto;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.far {
+  color: brown;
+  margin-right: 10px;
+  margin-left: 1em;
+}
+.todobutton {
+  margin-left: 10px;
+}
+.todoDisplay {
+  border: 2px solid #aa8181;
+  box-sizing: border-box;
+  height: auto;
+  width: 40vw;
+  margin: 2rem auto;
+  font-size: 14px;
+  box-shadow: inset  1px 1px 1px 2px #a19898;
+}
+
+.btndel {
+  /* Blue background */
+  /* Remove borders */
+  margin-right: 6px;
+  margin-left: auto;
+  margin-bottom: 4px;
+  border: none;
+  display: block;
+  float: right;
+  color: rgb(128, 89, 89); /* White text */
+  padding: 4px 10px; /* Some padding */
+  font-size: 11px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+.btndel > .del {
+  border: none;
+  display: block;
+  margin-right: 4px;
+  float: right;
+  color: rgb(128, 89, 89); /* White text */
+  padding: 4px 10px; /* Some padding */
+  font-size: 11px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+.btndel > .edit {
+  border: none;
+
+  display: block;
+  float: right;
+  color: rgb(128, 89, 89); /* White text */
+  padding: 4px 10px; /* Some padding */
+  font-size: 11px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
