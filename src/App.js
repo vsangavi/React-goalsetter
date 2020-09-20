@@ -1,10 +1,7 @@
 import React, { Fragment } from "react";
-
 import "./App.css";
 import Form from "./Components/Form";
 class App extends React.Component {
-  
-
   render() {
     return (
       <Fragment>
@@ -14,8 +11,7 @@ class App extends React.Component {
             {"  "}GoalSetter
           </h1>
         </div>
-
-        <Form/>
+        <Form />
       </Fragment>
     );
   }
